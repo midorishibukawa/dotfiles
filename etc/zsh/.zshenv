@@ -13,7 +13,7 @@ export XDG_LIB_HOME="${_LOCAL}"/lib
 unset _LOCAL
 
 # import every profile from profile.d
-for PROFILE in "${ZDOTDIR}"/profile.d; do
+for PROFILE in "${ZDOTDIR}"/profile.d/*; do
     if [ -r "${PROFILE}" ]; then
         . "${PROFILE}"
     fi
