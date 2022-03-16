@@ -1,6 +1,9 @@
 add_newline = false
 right_format = """$time"""
 
+[container]
+disabled = true
+
 [sudo]
 format = "[$symbol]($style)"
 symbol = "🔓 "

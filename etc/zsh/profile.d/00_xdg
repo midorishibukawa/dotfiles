@@ -8,17 +8,17 @@ export XDG_LIB_HOME="$HOME"/.local/lib
 
 
 # set XDG cache environment variables
-STARSHIP_CACHE="$XDG_CACHE_HOME/starship"
+export STARSHIP_CACHE="$XDG_CACHE_HOME/starship"
 
 
 # set XDG config environment variables
-STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/config.toml"
+export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/config.toml"
 
 
 # set XDG data environment variables
-_FASD_DATA="$XDG_DATA_HOME/fasd"
-ZSH_PLUGINS="$XDG_DATA_HOME/zsh"
+export _FASD_DATA="$XDG_DATA_HOME/fasd"
+export ZSH_PLUGINS="$XDG_DATA_HOME/zsh"
 
 
 # set XDG state environment variables
-HISTFILE="$XDG_STATE_HOME/zsh/history"
+export HISTFILE="$XDG_STATE_HOME/zsh/history"

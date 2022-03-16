@@ -25,3 +25,5 @@ zstyle ':completion:*' cache-path "$XDG_CACHE_HOME"/zsh/zcompcache
 # load fasd and starship
 eval "$(fasd --init auto)"
 eval "$(starship init zsh)"
+
+if [[ -z "$TMUX" ]]; then tmux; fi
